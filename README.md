@@ -25,7 +25,7 @@ Containerization has revolutionized the software development and deployment land
 A pod is the basic building block of a Kubernetes cluster. It represents a logical unit that encapsulates one or more containers and associated resources, such as storage volumes and network settings. In simpler terms, a pod is a group of tightly coupled containers that are scheduled and run together on the same host.
 
 ### Characteristics
-- Pods are ephemeral entities that can be created, destroyed, or replaced as needed.
+- Pods are ephemeral entities that can be created, destroyed, or replaced as needed..
 - Containers within a pod share the same network namespace and IP address, enabling seamless communication.
 - Pods provide shared storage volumes, allowing containers within the same pod to access and share files.
 - Each pod has a unique IP address and is assigned a unique hostname.
